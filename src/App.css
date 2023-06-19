@@ -1,33 +1,62 @@
+/* Sidebar Styles */
 .sidebar {
-  width: 200px;
-  background-color: #f0f0f0;
-  transition: width 0.3s ease;
-  
+  width: 250px;
+  background-color: #f1f1f1;
 }
 
-.sidebar.collapsed {
-  width: 100px;
+.sidebar-header {
+  padding: 10px;
+  background-color: #ccc;
 }
 
-.sidebar ul {
-  list-style: none;
+.sidebar-menu {
+  list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin-top: 20px;
 }
 
-.sidebar ul li {
+.sidebar-menu li {
   padding: 10px;
-  cursor: pointer;
 }
 
-.sidebar ul li:hover {
-  background-color: #eaeaea;
+.sidebar-menu li a {
+  text-decoration: none;
+  color: #333;
 }
-.toggle-button {
+
+/* Dropdown Menu Styles */
+.dropdown-menu1 {
+  background-color: white;
   display: block;
-  width: 100%;
   padding: 10px;
-  border: none;
-  background-color: #f0f0f0;
-  cursor: pointer;
+  margin-top: 20px;
+}
+
+.dropdown-menu1 li {
+  padding: 5px 0;
+  display: block;
+}
+
+.dropdown-menu1 li a {
+  display: block;
+  text-decoration: none;
+  padding: 5px;
+  color: #333;
+}
+
+.dropdown-menu1 li a:hover {
+  background-color: #bbb;
+}
+
+/* styling for icons */
+.icon{
+  background-color:white;
+  padding: 5px;
+  border: 1px solid #bbb;
+border-radius: 50px;
+}
+/* styling for dropdown button */
+.dropdownbtn{
+background-color: lightgray;
+padding: 10px 65px 10px 10px;
 }

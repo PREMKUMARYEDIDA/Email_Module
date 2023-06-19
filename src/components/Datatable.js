@@ -79,7 +79,7 @@ const handleFunction = (e)=>{
         selectableRows
         fixedHeader
         pagination
-        ></DataTable>
+        />
     </div>
   )
 }

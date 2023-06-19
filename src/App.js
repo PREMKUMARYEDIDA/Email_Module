@@ -1,7 +1,7 @@
 
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import './App.css';
-import Side from './components/side';
+import Side from './components/Sidebar';
 import Contact from './components/contact';
 import Datatable from './components/Datatable';
 
